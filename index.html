@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Big Mustache Gang</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Big Mustache Gang</h1>
+    <p id="description">Become a member today, simply sign up by filling in the details below</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text" placeholder="Insert your name here..." required/>
+        </label>
+        <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="Insert your email here..." required/>
+        </label>
+        <label id="number-label" for="number">Enter Your Age: <input id="number" name="number" type="number" min="18" max="120" placeholder="Insert your age here..." required/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Select your Mustache Type:</label>
+        <label for="mustache1"><input id="mustache1" value="mustache1" type="radio" name="mustache-type" class="inline">The Chevron Mustache</label>
+        <label for="mustache2"><input id="mustache2" value="mustache2" type="radio" name="mustache-type" class="inline">The English Mustache</label>
+        <label for="mustache3"><input id="mustache3" value="mustache3" type="radio" name="mustache-type" class="inline">The Handlebar Mustache</label>
+        <label for="mustache4"><input id="mustache4" value="mustache4" type="radio" name="mustache-type" class="inline">The Horseshoe Mustache</label>
+        <label for="mustache5"><input id="mustache5" value="mustache5" type="radio" name="mustache-type" class="inline">The Pencil Mustache</label>
+        <label for="mustache6"><input id="mustache6" value="mustache6" type="radio" name="mustache-type" class="inline">The Walrus Mustache</label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label" for="dropdown">How did you get here?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Deep Web</option>
+            <option value="2">Fight Club</option>
+            <option value="3">Other</option>
+          </select>
+        </label>
+        <label for="terms-and-conditions" name="terms-and-conditions-label">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="termaccept" /> I accept the terms and conditions</a>
+        </label>
+        <label for="notice" name="notice-label">
+          <input id="notice" type="checkbox"  name="notice" class="inline" value="newsaccept" /> I accept to receive newsletters</a>
+        </label>
+        <label for="bio">Tell us about yourself:
+          <textarea id="bio" name="bio" rows="4" cols="35" placeholder="I like to cultivate my big mustache..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+      </form>
+  </body>
+</html>
