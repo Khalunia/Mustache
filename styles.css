@@ -66,6 +66,7 @@ body {
   }
 
   img {
-    width: 5px;
-    height: 7px;
+    width: 105px;
+    height: 30px;
+    background-color: aliceblue;
   }
